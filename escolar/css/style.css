@@ -1,0 +1,673 @@
+/*este e um arquivo .css*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/*RETIRAR BORDAS*/
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/*LINKS - EDICAO*/
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+
+}
+
+/*BOTAO MENU*/
+
+#botaoMenu{
+    position: absolute;
+    padding: 1%;
+    width: 1%;
+    height: auto;
+    margin-left: -20%;
+    margin-top: 0%;
+
+}
+
+#botaoMenu img{
+    width: 100%;
+    height: auto;
+
+}
+
+/*----------*/
+
+/*BOTAO CLOSE*/
+
+#menu nav ul #botaoClose{
+    position: absolute;
+    background-color: #f1f1f1;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: -10%;
+    z-index: -1;
+
+}
+
+/*-----------*/
+
+/*LOGO*/
+
+#logoSite{
+    position: absolute;
+    padding: 3%;
+    width: 34%;
+    height: auto;
+    margin: auto;
+    margin-top: -50%;
+    /*background-color: tomato;*/  /*DEBUG*/
+
+}
+
+#logoSite img{
+    width: 100%;
+    height: auto;
+
+}
+
+/*----*/
+
+/*MENU*/
+
+#menu{
+    position: fixed;
+    padding: 0.5%;
+    width: 99%;
+    max-height: auto;
+    background-color: #f9f9f9;
+    text-align: right;
+    z-index: 100;
+
+}
+
+#menu nav{
+    padding: 1%;
+    width: 98%;
+    max-height: auto;
+    /*background-color: brown;*/  /*DEBUG*/
+
+}
+
+#menu nav ul li {
+    display: inline;
+    padding: 1%;
+    transition: 0.5s;
+    /*background-color: blueviolet;*/  /*DEBUG*/
+
+}
+
+#menu nav ul li:hover{
+    background-color: #f1f1f1;
+    box-shadow: 0px 2px 2px -3px #262626; /*SOMBRA BOTOES - MENU*/
+
+}
+
+/*----*/
+
+/*CONTAINER*/
+
+#container{
+    width: 100%;
+    max-height: auto;
+    /*background-color: blue;*/ /*DEBUG*/
+
+}
+
+/*CARROCEL*/
+
+#container #carroceu{
+    width: 100%;
+    max-height: auto;
+    /*background-color: red;*/ /*DEBUG*/
+
+}
+
+#container #carroceu img{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+
+}
+
+/*--------*/
+
+/*BLOCO MATERIAS*/
+
+#blocoMateria{
+    width: 100%;
+    height: auto;
+    /*background-color: bisque;*/ /*DEBUG*/
+
+}
+
+/*NUVEM DECORACAO*/
+
+#blocoMateria #decoracao{
+    width: 100%;
+    height: 14vh;
+    background-color: #ffffff;
+
+}
+
+#blocoMateria #decoracao img{
+    width: 100%;
+    height: auto;
+
+}
+
+/*---------------*/
+
+/*BACKGROUND GRUPOS*/
+
+.corBackgroundPortugues{ /* COR DO BACKGROUD DE ACORDO COM A MATERIA */
+    background-color: #f0cd3a !important;
+
+}
+
+.corBackgroundMatematica{
+    background-color: #f98f57 !important;
+
+}
+
+.corBackgroundCiencias{
+    background-color: #a9ec9b !important;
+
+}
+
+.corBackgroundGeografia{
+    background-color: #80c3d2 !important;
+
+}
+
+.decoracaoMatematica{
+    background-color: #f0cd3a !important;
+
+}
+
+.decoracaoCiencias{
+    background-color: #f98f57 !important;
+
+}
+
+.decoracaoGeografia{
+    background-color: #a9ec9b !important;
+
+}
+/*-----------------*/
+
+/*DIVISAO DOS GRUPOS*/
+
+#conteudoMaterias{
+    width: 100%;
+    min-height: 76vh;
+    /*background-color: aquamarine;*/ /*DEBUG*/
+
+}
+
+/*ESQUERDA*/
+
+#blocoMateria #imagensMateira{
+    padding: 1%;
+    width: 48%;
+    max-height: auto;
+    /*background-color: blueviolet;*/ /*DEBUG*/
+    float: left;
+
+}
+
+#blocoMateria #imagensMateira #conteudoIMG{
+    padding: 1%;
+    width: 48%;
+    max-height: auto;
+    text-align: center;
+    color: #414141;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    float: left;
+
+}
+
+#blocoMateria #imagensMateira #conteudoIMG img{
+    width: 70%;
+    height: auto;
+    box-shadow: 0px 5px 5px -5px #414141;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+#blocoMateria #imagensMateira #conteudoIMG img:hover{
+    box-shadow: 0px 0px 0px 0px #414141;
+
+}
+
+#blocoMateria #imagensMateira #conteudoIMG h2{
+    padding: 1%;
+    width: 58%;
+    height: auto;
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+#blocoMateria #imagensMateira #conteudoIMG p{
+    padding: 1%;
+    width: 58%;
+    height: auto;
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+/*DIREITA*/
+
+#blocoMateria #sinteseMateira{
+    padding: 1%;
+    width: 48%;
+    max-height: auto;
+    margin-top: 10%;
+    /*background-color: rosybrown;*/ /*DEBUG*/
+    color: #414141;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+
+}
+
+#blocoMateria #sinteseMateira h1{
+    padding: 1%;
+    width: 78%;
+    height: auto;
+    font-size: 2em;
+
+}
+
+#blocoMateria #sinteseMateira p{
+    padding: 1%;
+    width: 78%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+/*--------------*/
+
+/*ANIMATION*/
+
+#conteudoMaterias #imagensMateira{
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(0);
+
+}
+
+#conteudoMaterias #imagensMateira[data-scroll="in"]{
+    transform: scaleX(1);
+    
+}
+
+#conteudoMaterias #sinteseMateira{
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+
+}
+
+#conteudoMaterias #sinteseMateira[data-scroll="in"]{
+    transform: scaleX(1);
+
+}
+
+/*---------*/
+
+/*ESCALABILIDADE*/
+
+/*@media screen and (max-width: 1420px), (min-width: 1030px){
+    #blocoMateria #decoracao{
+        height: 10vh;
+
+    }
+
+}
+
+@media screen and (max-width: 1029px), (min-width: 830px){
+    #blocoMateria #decoracao{
+        height: 8vh;
+
+    }
+
+}
+
+@media screen and (max-width: 829px), (min-width: 601px){
+    #blocoMateria #decoracao{
+        height: 6vh;
+
+    }
+
+}*/
+
+@media screen and (max-width: 600px){
+    /*BOTAO MENU*/
+
+    #botaoMenu{
+        position: absolute;
+        padding: 1%;
+        width: 6%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 10%;
+
+    }
+
+    #botaoMenu img{
+        width: 100%;
+        height: auto;
+
+    }
+
+    /*----------*/
+
+    /*BOTAO CLOSE*/
+
+    #menu nav ul #botaoClose{
+        position: relative;
+        background-color: #f1f1f1;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 1em;
+        text-align: right;
+        margin-top: 0%;
+        box-shadow: 0px 3px 5px -5px #262626;
+        z-index: 1;
+    
+    }
+
+    #menu nav ul #botaoClose:hover{
+        box-shadow: 0px 0px 0px 0px #262626;
+
+    }
+    
+    /*-----------*/
+
+    /*LOGO*/
+
+    #logoSite{
+        position: relative;
+        padding: 3%;
+        width: 34%;
+        height: auto;
+        margin: auto;
+        /*background-color: tomato;*/  /*DEBUG*/
+
+    }
+
+    #logoSite img{
+        width: 100%;
+        height: auto;
+
+    }
+
+    /*----*/
+
+    /*MENU*/
+
+    #menu{
+        position: absolute;
+        padding: 1%;
+        width: 48%;
+        min-height: 100vh;
+        background-color: #f9f9f9;
+        box-shadow: 0px 5px 10px -5px #262626;
+        transition: 0.5s;
+        text-align: left;
+        z-index: 1;
+
+    }
+
+    #menu nav{
+        padding: 1%;
+        width: 98%;
+        max-height: auto;
+        /*background-color: brown;*/ /*DEBUG*/
+    
+    }
+
+    #menu nav ul li{
+        display: list-item;
+        padding: 10%;
+        width: 80%;
+        max-height: auto;
+        /*transition: 0.5s;*/
+        /*background-color: blueviolet;*/ /*DEBUG*/
+    
+    }
+
+    #menu nav ul li:hover{
+        background-color: #f1f1f1;
+        box-shadow: 0px 2px 2px -3px #262626; /*SOMBRA BOTOES - MENU*/
+    
+    }
+
+    /*----*/
+
+    /*CONTAINER*/
+
+    #container{
+        width: 100%;
+        max-height: auto;
+        /*background-color: blue;*/ /*DEBUG*/
+
+    }
+
+    /*CARROCEL*/
+
+    #container #carroceu{
+        width: 100%;
+        max-height: auto;
+        /*background-color: red;*/ /*DEBUG*/
+
+    }
+
+    #container #carroceu img{
+        margin-top: 7%; /*nao esquecer de adiconar o botao de menu*/
+        width: 100%;
+        height: auto;
+
+    }
+
+    /*RETIRAR O CARROCEL EM TELAS DE CELULAR E COLOCAR O LOGO NO LUGAR*/
+        #carroceu{
+            display: none;
+
+        }
+
+        .carrocel{
+            display: none;
+
+        }
+
+    /*--------*/
+
+    /*BLOCO MATERIAS*/
+
+    #blocoMateria{
+        width: 100%;
+        height: auto;
+        /*background-color: blue;*/ /*DEBUG*/
+
+    }
+
+    /*NUVEM DECORACAO*/
+
+    #blocoMateria #decoracao{
+        width: 100%;
+        height: 3.5vh; /*nuvem*/
+        background-color: #ffffff;
+
+    }
+
+    #blocoMateria #decoracao img{
+        width: 100%;
+        height: auto;
+
+    }
+
+    /*---------------*/
+
+    /*BACKGROUND GRUPOS*/
+
+    .corBackgroundPortugues{ /* COR DO BACKGROUD DE ACORDO COM A MATERIA */
+        background-color: #f0cd3a !important; /*DEBUG*/
+
+    }
+
+    /*-----------------*/
+
+    /*DIVISAO DOS GRUPOS*/
+
+    #blocoMateria #conteudoMaterias{
+        width: 100%;
+        min-height: auto;
+        /*background-color: aquamarine;*/ /*DEBUG*/
+    
+    }
+
+    /*ESQUERDA*/
+
+    #blocoMateria #conteudoMaterias #imagensMateira{
+        padding: 0%;
+        width: 100%;
+        max-height: auto;
+        /*background-color: blueviolet;*/ /*DEBUG*/
+        float: none;
+
+    }
+
+    #blocoMateria #conteudoMaterias #imagensMateira #conteudoIMG{
+        padding: 4%;
+        width: 92%;
+        max-height: auto;
+        text-align: center;
+        color: #414141;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        float: left;
+
+    }
+
+    #blocoMateria #conteudoMaterias #imagensMateira #conteudoIMG img{
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 5px 5px -5px #414141;
+        border-radius: 5px;
+
+    }
+
+    #blocoMateria #conteudoMaterias #imagensMateira #conteudoIMG img:hover{
+        box-shadow: 0px 0px 0px 0px #414141;
+
+    }
+
+    #blocoMateria #conteudoMaterias #imagensMateira #conteudoIMG h2{
+        padding: 2%;
+        width: 86%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+
+    #blocoMateria #conteudoMaterias #imagensMateira #conteudoIMG p{
+        padding: 2%;
+        width: 86%;
+        height: auto;
+        margin: auto;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    /*DIREITA*/
+
+    #blocoMateria #conteudoMaterias #sinteseMateira{
+        padding: 1%;
+        width: 98%;
+        max-height: auto;
+        margin-top: 0%;
+        /*background-color: rosybrown;*/ /*DEBUG*/
+        color: #414141;
+        font-family: 'Montserrat', sans-serif;
+        float: none;
+
+    }
+
+    #blocoMateria #conteudoMaterias #sinteseMateira h1{
+        padding: 1%;
+        width: 88%;
+        height: auto;
+        margin: auto;
+        font-size: 2em;
+
+    }
+
+    #blocoMateria #conteudoMaterias #sinteseMateira p{
+        padding: 1%;
+        width: 88%;
+        height: auto;
+        margin: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+
+    }
+
+    /*--------------*/
+
+    /*ANIMATION*/
+
+    #conteudoMaterias #imagensMateira{
+        transition: 0.5s;
+        transform-origin: left;
+        transform: scaleX(1);
+
+    }
+
+    #conteudoMaterias #imagensMateira[data-scroll="in"]{
+        transform: scaleX(1);
+
+    }
+
+    #conteudoMaterias #sinteseMateira{
+        transition: 0.5s;
+        transform-origin: right;
+        transform: scaleX(0);
+
+    }
+
+    #conteudoMaterias #sinteseMateira[data-scroll="in"]{
+        transform: scaleX(1);
+
+    }
+
+    /*---------*/
+
+}

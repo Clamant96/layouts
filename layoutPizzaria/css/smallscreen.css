@@ -1,0 +1,212 @@
+/*este e um arquivo .css*/
+
+/*este e um arquivo .css*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+/*MENU - SideBar*/
+#sideBar{
+    position: fixed;
+    width: 40%;
+    margin-left: -45%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 3px 0px #454545;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+#sideBar nav{
+    padding: 2%;
+    width: 96%;
+    height: auto;
+    /*background-color: antiquewhite;*/ /*DEBUG*/
+
+}
+#sideBar nav ul li{
+    padding: 5%;
+    width: 90%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    transition: 0.5s;
+
+}
+#sideBar nav ul li:hover{
+    background-color: #f1f1f1;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+
+}
+/*DIMENSOES PAGINA*/
+#container{ /*AJUSTA A ESCLABILIDADE DA PAGINA*/
+    width: 90%;
+    height: 50vh;
+    margin-left: 3%;
+    /*background-color: aqua;*/ /*DEBUG*/
+
+}
+/*MENU - Header*/
+#container #header{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+    margin-bottom: 5%;
+
+}
+/*MENU - Header | Botao Menu*/
+#container #header #botaoMenu{
+    padding: 2%;
+    width: 16%;
+    height: auto;
+    /*background-color: blue;*/ /*DEBUG*/
+    float: left;
+
+}
+#container #header #botaoMenu a{
+    text-decoration: none;
+    color: #000000;
+
+}
+#container #header #botaoMenu a:hover{
+    color: #000000;
+
+}
+#container #header #botaoMenu img{
+    width: 80%;
+    height: auto;
+    float: none;
+    /*background-color: blue;*/ /*DEBUG*/
+
+}
+#container #header #botaoMenu p{
+    display: none;
+    width: 88%;
+    height: auto;
+    margin-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    float: left;
+    /*background-color: blue;*/ /*DEBUG*/
+
+}
+/*MENU - Header | Botao Logo*/
+#container #header #botaoLogo{
+    padding: 1%;
+    width: 58%;
+    height: auto;
+    /*background-color: blue;*/ /*DEBUG*/
+    text-align: center;
+    float: left;
+
+}
+#container #header #botaoLogo img{
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+
+}
+/*MENU - Header | Botao WhatsApp*/
+#container #header #botaoWhats{
+    padding: 2%;
+    width: 16%;
+    height: auto;
+    /*background-color: blue;*/ /*DEBUG*/
+    text-align: center;
+    float: left;
+
+}
+#container #header #botaoWhats img{
+    width: 60%;
+    height: auto;
+    margin-top: 20%;
+
+}
+/*CONTEUDO - SECTION | Promocoes*/
+#container #section{
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*background-color: blue;*/ /*DEBUG*/
+
+}
+#container #section img{
+    width: 100%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    transition: 0.5s;
+
+}
+#container #section #excluir{ /*EXCLUI UMA DAS IMAGENS*/
+    display: none;
+
+}
+#container #section img:hover{
+    filter: saturate(90%);
+
+}
+/*CONTEUDO - SECTION_CONTEUDO | Cardapio*/
+#container #sectionConteudo{
+    padding: 2%;
+    width: 96%;
+    height: 21vh;
+    margin-bottom: 0%;
+    /*background-color: blueviolet;*/ /*DEBUG*/
+
+}
+/*CONTEUDO - SECTION_CONTEUDO | Titulo Pizza*/
+#container #sectionConteudo h1{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+
+}
+/*CONTEUDO - SECTION_CONTEUDO | DIV Pizza*/
+#container #sectionConteudo #quadroPizza{
+    width: 100%;
+    height: 17vh;
+    /*background-color: brown;*/ /*DEBUG*/
+    float: left;
+
+}
+#container #sectionConteudo #quadroPizza p{
+    padding: 2%;
+    width: 56%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    float: left;
+
+}
+#container #sectionConteudo #quadroPizza img{
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 5%;
+    float: left;
+
+}
+/*FIM - FOOTER*/
+#container #footer{
+    display: none;
+    width: 100%;
+    height: 10vh;
+    /*background-color: burlywood;*/ /*DEBUG*/
+    margin-bottom: 2%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+
+}

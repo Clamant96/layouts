@@ -1,0 +1,233 @@
+/*este e um arquivo .css*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+/*MENU - SideBar*/
+a{
+    text-decoration: none;
+    color: #000000;
+
+}
+a:hover{
+    color: #000000;
+
+}
+#sideBar{
+    position: fixed;
+    width: 20%;
+    margin-left: -20%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 3px 0px #454545;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+#sideBar nav{
+    padding: 2%;
+    width: 96%;
+    height: auto;
+    /*background-color: antiquewhite;*/ /*DEBUG*/
+
+}
+#sideBar nav ul a li{
+    padding: 5%;
+    width: 90%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    transition: 0.5s;
+
+}
+#sideBar nav ul a li:hover{
+    background-color: #f1f1f1;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+
+}
+/*DIMENSOES PAGINA*/
+#container{
+    width: 85%;
+    height: 50vh;
+    margin: auto;
+    /*background-color: aqua;*/ /*DEBUG*/
+
+}
+/*MENU - Header*/
+#container #header{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+
+}
+/*MENU - Header | Botao Menu*/
+#container #header #botaoMenu{
+    padding: 2%;
+    width: 16%;
+    height: auto;
+    /*background-color: blue;*/ /*DEBUG*/
+    float: left;
+
+}
+#container #header #botaoMenu a{
+    text-decoration: none;
+    color: #000000;
+
+}
+#container #header #botaoMenu a:hover{
+    color: #000000;
+
+}
+#container #header #botaoMenu img{
+    width: 10%;
+    height: auto;
+    float: left;
+    /*background-color: blue;*/ /*DEBUG*/
+
+}
+#container #header #botaoMenu p{
+    width: 88%;
+    height: auto;
+    margin-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    float: left;
+    /*background-color: blue;*/ /*DEBUG*/
+
+}
+/*MENU - Header | Botao Logo*/
+#container #header #botaoLogo{
+    padding: 1%;
+    width: 58%;
+    height: auto;
+    /*background-color: blue;*/ /*DEBUG*/
+    text-align: center;
+    float: left;
+
+}
+#container #header #botaoLogo img{
+    width: 10%;
+    height: auto;
+    margin: auto;
+
+}
+/*MENU - Header | Botao WhatsApp*/
+#container #header #botaoWhats{
+    padding: 2%;
+    width: 16%;
+    height: auto;
+    /*background-color: blue;*/ /*DEBUG*/
+    text-align: right;
+    float: left;
+
+}
+#container #header #botaoWhats img{
+    width: 10%;
+    height: auto;
+
+}
+/*CONTEUDO - SECTION | Promocoes*/
+#container #section{
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    text-align: center;
+    /*background-color: blue;*/ /*DEBUG*/
+
+}
+#container #section img{
+    width: 40%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    transition: 0.5s;
+
+}
+#container #section img:hover{
+    filter: saturate(90%);
+
+}
+/*CONTEUDO - SECTION_CONTEUDO | Cardapio*/
+#container #sectionConteudo{
+    padding: 2%;
+    width: 96%;
+    height: 140vh;
+    /*background-color: blueviolet;*/ /*DEBUG*/
+
+}
+/*CONTEUDO - SECTION_CONTEUDO | Titulo Pizza*/
+#container #sectionConteudo h1{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+
+}
+/*CONTEUDO - SECTION_CONTEUDO | DIV Pizza*/
+#container #sectionConteudo #pizzaSalgada{
+    padding: 1%;
+    width: 48%;
+    height: auto;
+    /*background-color: brown;*/ /*DEBUG*/
+    float: left;
+
+}
+#container #sectionConteudo #pizzaSalgada nav ul li{
+    padding: 1%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+
+}
+#container #sectionConteudo #pizzaSalgada nav ul li a{
+    font-weight: 700;
+
+}
+#container #sectionConteudo #pizzaSalgada nav ul li p{
+    font-weight: 100;
+    font-size: 0.8em;
+
+}
+#container #sectionConteudo #pizzaDoce{
+    padding: 1%;
+    width: 48%;
+    height: auto;
+    float: left;
+
+}
+#container #sectionConteudo #pizzaDoce nav ul li{
+    padding: 1%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+
+}
+#container #sectionConteudo #pizzaDoce nav ul li a{
+    font-weight: 700;
+
+}
+#container #sectionConteudo #pizzaDoce nav ul li p{
+    font-weight: 100;
+    font-size: 0.8em;
+
+}
+/*FIM - FOOTER*/
+#container #footer{
+    width: 100%;
+    height: 10vh;
+    /*background-color: burlywood;*/ /*DEBUG*/
+    margin-bottom: 2%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 5px 5px -5px #d3d2d2;
+
+}

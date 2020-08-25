@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: DISCO
+Author: Typografski
+Url: http://www.fontsquirrel.com/fonts/disco
+
+Font: Caveat
+Author: Impallari Type
+Url: https://www.fontsquirrel.com/fonts/caveat

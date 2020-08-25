@@ -1,0 +1,1005 @@
+/*este e um arquivo .css*/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/*MENU*/
+
+#menu{
+    position: fixed;
+    width: 20%;
+    min-height: 100vh;
+    margin-left: -25%;
+    background-color: #262626;
+    box-shadow: 0px 0px 3px 0px #262626;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+
+    #menu nav{
+        padding: 1%;
+        width: 98%;
+        height: auto;
+        /*background-color: antiquewhite;*/ /*DEBUG*/
+
+    }
+
+    #menu nav ul{
+        width: 100%;
+        height: auto;
+        /*background-color: aquamarine;*/ /*DEBUG*/
+
+    }
+
+    #menu nav ul a{
+        text-decoration: none;
+        color: #f1f1f1;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+
+    }
+
+    #menu nav ul a li{
+        padding: 5%;
+        width: 90%;
+        height: auto;
+        margin: 4px 0; /*espacamento entre os botoes 'height'*/
+        /*background-color: brown;*/ /*DEBUG*/
+        list-style: none;
+        transition: 0.5s;
+
+    }
+
+    #menu nav ul a li:hover{
+        background-color: #f9f9f9;
+        color: #262626;
+
+    }
+
+/*WALLPAPER*/
+
+#wallPaper{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/backgroundCompleto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+/*CONTAINER*/
+
+#container{
+    width: 100%;
+    min-height: 100vh;
+    /*background-color: chartreuse;*/
+
+}
+
+    #container #botaoMenu{
+        position: absolute;
+        width: 2%;
+        height: auto;
+        margin: 4% 0% 0% 5%;
+        border-radius: 100%;
+        /*background-color: chocolate;*/ /*DEBUG*/
+
+    }
+
+    #container #botaoMenu img{
+        width: 100%;
+        height: auto;
+
+    }
+
+/*LOGO*/
+
+#container #logo{
+    padding: 3%;
+    width: 94%;
+    height: auto;
+    /*background-color: darkblue;*/ /*DEBUG*/
+    text-align: center;
+
+}
+
+    #container #logo p{
+        color: rgb(221, 133, 1);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 4em;
+        text-transform: uppercase;
+
+    }
+
+/*CONTEUDO*/
+
+#container #conteudo{
+    padding: 5%;
+    width: 90%;
+    min-height: 43vh;
+    /*margin-top: 3%;*/ /*AJUSTAR A MARGEM DE ACORDO COM O TAMANHO DA TELA*/
+    background-color: transparent;
+
+}
+
+    /*BLOCO NOVIDADES*/
+    #container #conteudo #novidade{
+        padding: 3%;
+        width: 54%;
+        max-height: auto;
+        text-align: left;
+        /*background-color: khaki;*/
+        float: left;
+
+    }
+
+    #container #conteudo #novidade h1{
+        padding: 3%;
+        width: 94%;
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: rgb(56, 9, 92);
+
+    }
+
+    #container #conteudo #novidade p{
+        padding: 3%;
+        width: 94%;
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+
+    }
+
+    /*BLOCO IMG NOVIDADES*/
+    #container #conteudo #imagemNovidade{
+        padding: 1%;
+        width: 38%;
+        max-height: auto;
+        /*background-color: lightblue;*/
+        float: right;
+
+    }
+
+    #container #conteudo #imagemNovidade img{
+        width: 100%;
+        height: auto;
+        /*box-shadow: 0px 6px 3px -5px #262626;*/
+
+    }
+
+/*INFORMACOES*/
+
+#informacoes{
+    padding: 5%;
+    width: 90%;
+    height: auto;
+    background-color: #f9f9f9;
+    box-shadow: 0px 6px 3px 5px #262626;
+
+}
+
+    #informacoes #bloco{
+        width: 100%;
+        height: auto;
+        /*background-color: bisque;*/
+
+    }
+
+    #informacoes #bloco #info{
+        display: inline-block; /*ALINHA AS DIVIS SEM UTILIZACAO DO FLOAT*/
+        padding: 2%;
+        width: 29.1299%;
+        height: auto;
+        /*background-color: blueviolet;*/
+
+    }
+
+    #informacoes #bloco #info img{
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 6px 3px -5px #262626;
+        transition: 0.5s;
+
+    }
+
+    #informacoes #bloco #info img:hover{
+        box-shadow: 0px 0px 0px 0px #262626;
+
+    }
+
+    #informacoes #bloco #info p{
+        padding: 5%;
+        width: 90%;
+        height: auto;
+        color: #262626;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+
+    }
+
+/*FOOTER*/
+
+#footer{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    background-color: #262626;
+
+}
+
+    #footer #redes{  
+        width: 100%;
+        height: auto;
+        /*background-color: bisque;*/
+    }
+
+    #footer #redes #icon{  
+        width: 100%;
+        height: auto;
+        /*background-color: blueviolet;*/
+        text-align: right;
+
+    }
+
+    #footer #redes #icon a img{
+        padding: 0.5%;
+        width: 1.5%;
+        height: auto;
+
+    }
+
+    @media only screen and (max-width: 360px) {
+        /*MENU*/
+
+        #menu{
+            position: fixed;
+            width: 50%;
+            min-height: 100vh;
+            margin-left: -25%;
+            background-color: #262626;
+            box-shadow: 0px 0px 3px 0px #262626;
+            transition: 0.5s;
+            z-index: 1;
+
+        }
+
+            #menu nav{
+                padding: 1%;
+                width: 98%;
+                height: auto;
+                /*background-color: antiquewhite;*/ /*DEBUG*/
+
+            }
+
+            #menu nav ul{
+                width: 100%;
+                height: auto;
+                /*background-color: aquamarine;*/ /*DEBUG*/
+
+            }
+
+            #menu nav ul a{
+                text-decoration: none;
+                color: #f1f1f1;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+
+            }
+
+            #menu nav ul a li{
+                padding: 5%;
+                width: 90%;
+                height: auto;
+                margin: 4px 0; /*espacamento entre os botoes 'height'*/
+                /*background-color: brown;*/ /*DEBUG*/
+                list-style: none;
+                transition: 0.5s;
+
+            }
+
+            #menu nav ul a li:hover{
+                background-color: #f9f9f9;
+                color: #262626;
+
+            }
+
+        /*WALLPAPER*/
+
+        #wallPaper{
+            position: fixed;
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(../img/backgroundCompleto.png);
+            background-size: 400%;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+
+        }
+
+        /*CONTAINER*/
+
+        #container{
+            width: 100%;
+            min-height: 100vh;
+            /*background-color: chartreuse;*/
+
+        }
+
+            #container #botaoMenu{
+                position: absolute;
+                width: 5%;
+                height: auto;
+                margin: 4% 0% 0% 5%;
+                border-radius: 100%;
+                /*background-color: chocolate;*/ /*DEBUG*/
+
+            }
+
+            #container #botaoMenu img{
+                width: 100%;
+                height: auto;
+
+            }
+
+        /*LOGO*/
+
+        #container #logo{
+            padding: 4%;
+            width: 92%;
+            height: auto;
+            /*background-color: darkblue;*/ /*DEBUG*/
+            text-align: center;
+
+        }
+
+            #container #logo p{
+                color: rgb(221, 133, 1);
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 900;
+                font-size: 3em;
+                text-transform: uppercase;
+                margin-top: 15%;
+
+            }
+
+        /*CONTEUDO*/
+
+        #container #conteudo{
+            padding: 5%;
+            width: 90%;
+            min-height: 43vh;
+            margin-top: 3%; /*AJUSTAR A MARGEM DE ACORDO COM O TAMANHO DA TELA*/
+            background-color: transparent;
+
+        }
+
+            /*BLOCO NOVIDADES*/
+            #container #conteudo #novidade{
+                padding: 1%;
+                width: 98%;
+                max-height: auto;
+                text-align: left;
+                /*background-color: khaki;*/
+                float: none;
+
+            }
+
+            #container #conteudo #novidade h1{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 800;
+                font-size: 1.5em;
+                text-transform: uppercase;
+
+            }
+
+            #container #conteudo #novidade p{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 1em;
+
+            }
+
+            /*BLOCO IMG NOVIDADES*/
+            #container #conteudo #imagemNovidade{
+                padding: 1%;
+                width: 98%;
+                max-height: auto;
+                /*background-color: lightblue;*/
+                float: none;
+
+            }
+
+            #container #conteudo #imagemNovidade img{
+                width: 100%;
+                height: auto;
+
+            }
+
+        /*INFORMACOES*/
+
+        #informacoes{
+            padding: 5%;
+            width: 90%;
+            height: auto;
+            background-color: #f9f9f9;
+            box-shadow: 0px 6px 3px 5px #262626;
+
+        }
+
+            #informacoes #bloco{
+                width: 100%;
+                height: auto;
+                /*background-color: bisque;*/
+
+            }
+
+            #informacoes #bloco #info{
+                display: inline-block; /*ALINHA AS DIVIS SEM UTILIZACAO DO FLOAT*/
+                padding: 2%;
+                width: 98%;
+                height: auto;
+                /*background-color: blueviolet;*/
+
+            }
+
+            #informacoes #bloco #info img{
+                width: 100%;
+                height: auto;
+                box-shadow: 0px 6px 3px -5px #262626;
+
+            }
+
+            #informacoes #bloco #info p{
+                padding: 5%;
+                width: 90%;
+                height: auto;
+                color: #262626;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 1em;
+
+            }
+
+        /*FOOTER*/
+
+        #footer{
+            padding: 3%;
+            width: 94%;
+            height: auto;
+            background-color: #262626;
+
+        }
+
+            #footer #redes{  
+                width: 100%;
+                height: auto;
+                /*background-color: bisque;*/
+            }
+
+            #footer #redes #icon{  
+                width: 100%;
+                height: auto;
+                /*background-color: blueviolet;*/
+                text-align: center;
+
+            }
+
+            #footer #redes #icon a img{
+                padding: 0.5%;
+                width: 5%;
+                height: auto;
+
+            }
+
+    }
+
+    /*OTIMIZACAO 600px*/
+    @media only screen and (max-width: 600px) and (min-width: 361px) {
+        /*MENU*/
+
+        #menu{
+            position: fixed;
+            width: 50%;
+            min-height: 100vh;
+            margin-left: -25%;
+            background-color: #262626;
+            box-shadow: 0px 0px 3px 0px #262626;
+            transition: 0.5s;
+            z-index: 1;
+
+        }
+
+            #menu nav{
+                padding: 1%;
+                width: 98%;
+                height: auto;
+                /*background-color: antiquewhite;*/ /*DEBUG*/
+
+            }
+
+            #menu nav ul{
+                width: 100%;
+                height: auto;
+                /*background-color: aquamarine;*/ /*DEBUG*/
+
+            }
+
+            #menu nav ul a{
+                text-decoration: none;
+                color: #f1f1f1;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+
+            }
+
+            #menu nav ul a li{
+                padding: 5%;
+                width: 90%;
+                height: auto;
+                margin: 4px 0; /*espacamento entre os botoes 'height'*/
+                /*background-color: brown;*/ /*DEBUG*/
+                list-style: none;
+                transition: 0.5s;
+
+            }
+
+            #menu nav ul a li:hover{
+                background-color: #f9f9f9;
+                color: #262626;
+
+            }
+
+        /*WALLPAPER*/
+
+        #wallPaper{
+            position: fixed;
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(../img/backgroundCompleto.png);
+            background-size: 300%;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+
+        }
+
+        /*CONTAINER*/
+
+        #container{
+            width: 100%;
+            min-height: 100vh;
+            /*background-color: chartreuse;*/
+
+        }
+
+            #container #botaoMenu{
+                position: absolute;
+                width: 5%;
+                height: auto;
+                margin: 4% 0% 0% 5%;
+                border-radius: 100%;
+                /*background-color: chocolate;*/ /*DEBUG*/
+
+            }
+
+            #container #botaoMenu img{
+                width: 100%;
+                height: auto;
+
+            }
+
+        /*LOGO*/
+
+        #container #logo{
+            padding: 4%;
+            width: 92%;
+            height: auto;
+            /*background-color: darkblue;*/ /*DEBUG*/
+            text-align: center;
+
+        }
+
+            #container #logo p{
+                color: rgb(221, 133, 1);
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 900;
+                font-size: 3em;
+                text-transform: uppercase;
+                margin-top: 15%;
+
+            }
+
+        /*CONTEUDO*/
+
+        #container #conteudo{
+            padding: 5%;
+            width: 90%;
+            min-height: 43vh;
+            margin-top: 3%; /*AJUSTAR A MARGEM DE ACORDO COM O TAMANHO DA TELA*/
+            background-color: transparent;
+
+        }
+
+            /*BLOCO NOVIDADES*/
+            #container #conteudo #novidade{
+                padding: 3%;
+                width: 94%;
+                max-height: auto;
+                text-align: left;
+                /*background-color: khaki;*/
+                float: none;
+
+            }
+
+            #container #conteudo #novidade h1{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 800;
+                font-size: 2em;
+                text-transform: uppercase;
+
+            }
+
+            #container #conteudo #novidade p{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 1em;
+
+            }
+
+            /*BLOCO IMG NOVIDADES*/
+            #container #conteudo #imagemNovidade{
+                padding: 1%;
+                width: 98%;
+                max-height: auto;
+                /*background-color: lightblue;*/
+                float: none;
+
+            }
+
+            #container #conteudo #imagemNovidade img{
+                width: 100%;
+                height: auto;
+
+            }
+
+        /*INFORMACOES*/
+
+        #informacoes{
+            padding: 5%;
+            width: 90%;
+            height: auto;
+            background-color: #f9f9f9;
+            box-shadow: 0px 6px 3px 5px #262626;
+
+        }
+
+            #informacoes #bloco{
+                width: 100%;
+                height: auto;
+                /*background-color: bisque;*/
+
+            }
+
+            #informacoes #bloco #info{
+                display: inline-block; /*ALINHA AS DIVIS SEM UTILIZACAO DO FLOAT*/
+                padding: 2%;
+                width: 96%;
+                height: auto;
+                /*background-color: blueviolet;*/
+
+            }
+
+            #informacoes #bloco #info img{
+                width: 100%;
+                height: auto;
+                box-shadow: 0px 6px 3px -5px #262626;
+
+            }
+
+            #informacoes #bloco #info p{
+                padding: 5%;
+                width: 90%;
+                height: auto;
+                color: #262626;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 1em;
+
+            }
+
+        /*FOOTER*/
+
+        #footer{
+            padding: 3%;
+            width: 94%;
+            height: auto;
+            background-color: #262626;
+
+        }
+
+            #footer #redes{  
+                width: 100%;
+                height: auto;
+                /*background-color: bisque;*/
+            }
+
+            #footer #redes #icon{  
+                width: 100%;
+                height: auto;
+                /*background-color: blueviolet;*/
+                text-align: center;
+
+            }
+
+            #footer #redes #icon a img{
+                padding: 0.5%;
+                width: 5%;
+                height: auto;
+
+            }
+
+    }
+
+    /*OTIMIZACAO 800px*/
+    @media only screen and (max-width: 900px) and (min-width: 601px) {
+        /*MENU*/
+
+        #menu{
+            position: fixed;
+            width: 50%;
+            min-height: 100vh;
+            margin-left: -25%;
+            background-color: #262626;
+            box-shadow: 0px 0px 3px 0px #262626;
+            transition: 0.5s;
+            z-index: 1;
+
+        }
+
+            #menu nav{
+                padding: 1%;
+                width: 98%;
+                height: auto;
+                /*background-color: antiquewhite;*/ /*DEBUG*/
+
+            }
+
+            #menu nav ul{
+                width: 100%;
+                height: auto;
+                /*background-color: aquamarine;*/ /*DEBUG*/
+
+            }
+
+            #menu nav ul a{
+                text-decoration: none;
+                color: #f1f1f1;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+
+            }
+
+            #menu nav ul a li{
+                padding: 5%;
+                width: 90%;
+                height: auto;
+                margin: 4px 0; /*espacamento entre os botoes 'height'*/
+                /*background-color: brown;*/ /*DEBUG*/
+                list-style: none;
+                transition: 0.5s;
+
+            }
+
+            #menu nav ul a li:hover{
+                background-color: #f9f9f9;
+                color: #262626;
+
+            }
+
+        /*WALLPAPER*/
+
+        #wallPaper{
+            position: fixed;
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(../img/backgroundCompleto.png);
+            background-size: 200%;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+
+        }
+
+        /*CONTAINER*/
+
+        #container{
+            width: 100%;
+            min-height: 100vh;
+            /*background-color: chartreuse;*/
+
+        }
+
+            #container #botaoMenu{
+                position: absolute;
+                width: 5%;
+                height: auto;
+                margin: 4% 0% 0% 5%;
+                border-radius: 100%;
+                /*background-color: chocolate;*/ /*DEBUG*/
+
+            }
+
+            #container #botaoMenu img{
+                width: 100%;
+                height: auto;
+
+            }
+
+        /*LOGO*/
+
+        #container #logo{
+            padding: 4%;
+            width: 92%;
+            height: auto;
+            /*background-color: darkblue;*/ /*DEBUG*/
+            text-align: center;
+
+        }
+
+            #container #logo p{
+                color: rgb(221, 133, 1);
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 900;
+                font-size: 3em;
+                text-transform: uppercase;
+                margin-top: 15%;
+
+            }
+
+        /*CONTEUDO*/
+
+        #container #conteudo{
+            padding: 5%;
+            width: 90%;
+            min-height: 43vh;
+            margin-top: 3%; /*AJUSTAR A MARGEM DE ACORDO COM O TAMANHO DA TELA*/
+            background-color: transparent;
+
+        }
+
+            /*BLOCO NOVIDADES*/
+            #container #conteudo #novidade{
+                padding: 3%;
+                width: 94%;
+                max-height: auto;
+                text-align: left;
+                /*background-color: khaki;*/
+                float: none;
+
+            }
+
+            #container #conteudo #novidade h1{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 800;
+                font-size: 2em;
+                text-transform: uppercase;
+
+            }
+
+            #container #conteudo #novidade p{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 1em;
+
+            }
+
+            /*BLOCO IMG NOVIDADES*/
+            #container #conteudo #imagemNovidade{
+                padding: 1%;
+                width: 98%;
+                max-height: auto;
+                /*background-color: lightblue;*/
+                float: none;
+
+            }
+
+            #container #conteudo #imagemNovidade img{
+                width: 100%;
+                height: auto;
+
+            }
+
+        /*INFORMACOES*/
+
+        #informacoes{
+            padding: 5%;
+            width: 90%;
+            height: auto;
+            background-color: #f9f9f9;
+            box-shadow: 0px 6px 3px 5px #262626;
+
+        }
+
+            #informacoes #bloco{
+                width: 100%;
+                height: auto;
+                /*background-color: bisque;*/
+
+            }
+
+            #informacoes #bloco #info{
+                display: inline-block; /*ALINHA AS DIVIS SEM UTILIZACAO DO FLOAT*/
+                padding: 2%;
+                width: 96%;
+                height: auto;
+                /*background-color: blueviolet;*/
+
+            }
+
+            #informacoes #bloco #info img{
+                width: 100%;
+                height: auto;
+                box-shadow: 0px 6px 3px -5px #262626;
+
+            }
+
+            #informacoes #bloco #info p{
+                padding: 5%;
+                width: 90%;
+                height: auto;
+                color: #262626;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 1em;
+
+            }
+
+        /*FOOTER*/
+
+        #footer{
+            padding: 3%;
+            width: 94%;
+            height: auto;
+            background-color: #262626;
+
+        }
+
+            #footer #redes{  
+                width: 100%;
+                height: auto;
+                /*background-color: bisque;*/
+            }
+
+            #footer #redes #icon{  
+                width: 100%;
+                height: auto;
+                /*background-color: blueviolet;*/
+                text-align: center;
+
+            }
+
+            #footer #redes #icon a img{
+                padding: 0.5%;
+                width: 5%;
+                height: auto;
+
+            }
+
+    }

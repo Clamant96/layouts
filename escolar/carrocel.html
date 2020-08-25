@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrocel</title>
+    <link rel="stylesheet" href="css/carrocel.css">
+</head>
+<body>
+    <div class="carrocel">
+	
+        <input type="radio" id="i1" name="images" checked />
+        <input type="radio" id="i2" name="images" />
+        
+        <div class="slide_img" id="one">			
+                
+                <img src="img/coronavirusCarrocel.png">
+                
+                    <label class="next" for="i2"></label>	
+            
+        </div>
+        
+        <div class="slide_img" id="two">
+            
+                <img src="img/sustentabilidadeCarrocel.png" >
+                
+                    <label class="next" for="i1"></label>
+            
+        </div>
+    
+        <div id="nav_slide">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+
+        </div>
+            
+    </div>
+
+    <script src="js/carrocel.js"></script>
+    
+</body>
+</html>
